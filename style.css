@@ -1,0 +1,145 @@
+body {
+    align-items: center;
+    background-color: hsl(204, 43%, 93%);
+    padding: 30px;
+    margin: 0px;
+    font-family: Karla, Arial;
+    Font-size: 16px;
+}
+
+
+
+p {
+    font-size: 16px;
+    color: hsl(0, 0%, 66%);
+    margin: 0;
+    padding: 0;
+
+}
+
+.conteiner1 {
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    width: 650px; 
+    height:200px;
+    box-shadow: 20px 2px 100px rgba(0, 0, 0, 0.459);
+}
+
+
+.flex1 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.div-conteiner {
+    padding: 30px 30px 30px 30px;
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+    font-size: 24px;
+}
+
+h2 {
+    color: hsl(71, 73%, 54%);
+    font-size: 18px;
+}
+
+
+
+.flex2 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.div1 {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 30px 30px 30px;
+    background-color:hsl(179, 62%, 43%);
+    border-radius: 0 0 0 10px;
+    
+}
+
+
+.paragrafo2 {
+    color: white;
+    font-size: 18px;
+} 
+
+#esse-texto{
+    color: white;
+    font-size: 16px;
+}
+
+.paragrafo3 {
+    color: white;
+    font-size: 30px;
+}
+
+.span1{
+    color: rgba(255, 255, 255, 0.548);
+    font-size: 16px;
+}
+
+.botão1 {
+    color: white;
+    background-color:hsl(71, 73%, 54%) ;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid hsl(71, 73%, 54%);
+    padding: 14px 24px 14px 24px;
+    font-size: 16px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.288);
+    transition: background-color ,0.3s;
+    cursor: pointer;
+}
+
+.botão1:hover {
+    background-color: rgba(0, 0, 0, 0.158);
+}
+
+.div2 {
+    flex: 1;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 30px 30px 30px 30px;
+    background-color:hsl(179, 61%, 48%); 
+    border-radius: 0 0 10px 0;
+}
+
+
+.paragrafo4 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.paragrafo5 {
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.596);
+    font-size: 14px;
+    width: 55%;
+
+}
+
+
+
